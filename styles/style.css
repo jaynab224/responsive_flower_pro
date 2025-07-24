@@ -1,7 +1,7 @@
-/* font section style  */
+/* front sec */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* sared style  */
+/* sred  */
 .noto_saris {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-/* body section style  */
+/* body sec*/
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +25,7 @@ body {
   margin: 0 auto;
   background-color: #f5f7fc;
 }
-/* navbar section style  */
+/* navbar sec*/
 .nav_section {
   display: flex;
   justify-content: space-between;
@@ -56,30 +56,30 @@ nav ul li a {
 .nav_second_color {
   color: rgb(0, 0, 0);
 }
-/* ALWAYS FRESH FLOWERS section  */
-.fresh_flowers {
+/* 2nd sec  */
+.secnd_sec{
   display: flex;
   margin-top: 176px;
   align-items: end;
   justify-content: space-between;
 }
-.alwayea_section h2 {
+.seco_sec h2 {
   font-size: 4rem;
   color: rgb(233, 90, 8);
 }
 
-.alwayea_section h2 span {
+.seco_sec h2 span {
   color: rgb(0, 0, 0);
 }
-.alwayea_section p {
+.seco_sec p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.3rem;
 }
-/* our plants section style  */
-.plants_section {
+/*  plant sec  */
+.plant_sec {
   margin-top: 75px;
 }
-.plants_section h3 {
+.plant_sec h3 {
   text-align: center;
   font-size: 3.12rem;
   margin-bottom: 15px;
@@ -87,14 +87,14 @@ nav ul li a {
 .font_color {
   color: rgb(233, 90, 8);
 }
-.plants_section p {
+.plant_sec p {
   max-width: 888px;
   text-align: center;
   margin: 0 auto;
   font-size: 1.37rem;
   color: rgba(0, 0, 0, 0.5);
 }
-.plants_img_section {
+.plant_img {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -123,7 +123,7 @@ nav ul li a {
     border: none;
     max-width: 270px;
 }
-/* flower plants section style  */
+/* challange-part-logo  */
 .flower_plants{
     display: flex;
     gap: 110px;
