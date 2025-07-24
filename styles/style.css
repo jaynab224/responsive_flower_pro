@@ -57,21 +57,21 @@ nav ul li a {
   color: rgb(0, 0, 0);
 }
 /* 2nd sec  */
-.secnd_sec{
+.fresh_flowers{
   display: flex;
   margin-top: 176px;
   align-items: end;
   justify-content: space-between;
 }
-.seco_sec h2 {
+.alwayea_section h2 {
   font-size: 4rem;
   color: rgb(233, 90, 8);
 }
 
-.seco_sec h2 span {
+.alwayea_section h2 span {
   color: rgb(0, 0, 0);
 }
-.seco_sec p {
+.alwayea_section p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.3rem;
 }
@@ -153,7 +153,74 @@ nav ul li a {
     width: 286px;
  }
   
-   
+    /* letes deals section style  */
+.latest_text{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 90px;
+}
+.latest_text h2{
+font-size: 3.13rem;
+margin-bottom: 25px;
+}
+.latest_text p{
+max-width: 888px;
+margin: 0 auto;
+font-size: 1.37rem;
+}
+.cards {
+  display: flex;
+  gap: 25px;
+}
+.left_card{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right_card {
+  position: relative;
+  
+}
+.right_card img{
+  border-radius: 8px;
+  max-width: 753px;
+}
+.small_card {
+  position: relative;
+ 
+}
+.small_card img{
+  border-radius: 8px;
+}
+.text_card {
+  position: absolute;
+  top: 79px;
+  left: 90px;
+  text-align: center
+}
+.text_right{
+  top: 174px;
+  left: 194px;
+}
+#text{
+  font-size: 2.5rem;
+}
+#text_small{
+  font-size: 1.75rem;
+  
+}
+
+.text_card h3{
+  color: white;
+  font-size: 1.25rem;
+}
+.text_card a{
+  color: white;
+  
+}
+
+
 
 
 /* mobile section style  */
@@ -236,3 +303,36 @@ nav ul li a {
     margin-left: 15px;
   }
 }
+
+
+ /* letes deals section style  */
+.latest_text{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.latest_text h2{
+  font-size: 1.5rem;
+}
+.latest_text p {
+  font-size: .87rem;
+}
+  .cards{
+    flex-direction: column;
+    
+  }
+  .right_card img{
+    width: 100%;
+  }
+  .left_card img{
+    width: 100%;
+  }
+  #text{
+    font-size: 1.25rem;
+  }
+  #text_small{
+    font-size: 1rem;
+  }
+  .text_right{
+    top: 100px;
+    left: 120px;
+  }
