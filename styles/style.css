@@ -1,0 +1,238 @@
+/* font section style  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* sared style  */
+.noto_saris {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* body section style  */
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f5f7fc;
+}
+/* navbar section style  */
+.nav_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.logo_img img {
+  max-width: 135px;
+  height: 71px;
+}
+nav ul {
+  display: flex;
+  gap: 48px;
+  margin-top: 27px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(137, 135, 161);
+}
+.nav_color {
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+}
+.nav_second_color {
+  color: rgb(0, 0, 0);
+}
+/* ALWAYS FRESH FLOWERS section  */
+.fresh_flowers {
+  display: flex;
+  margin-top: 176px;
+  align-items: end;
+  justify-content: space-between;
+}
+.alwayea_section h2 {
+  font-size: 4rem;
+  color: rgb(233, 90, 8);
+}
+
+.alwayea_section h2 span {
+  color: rgb(0, 0, 0);
+}
+.alwayea_section p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+}
+/* our plants section style  */
+.plants_section {
+  margin-top: 75px;
+}
+.plants_section h3 {
+  text-align: center;
+  font-size: 3.12rem;
+  margin-bottom: 15px;
+}
+.font_color {
+  color: rgb(233, 90, 8);
+}
+.plants_section p {
+  max-width: 888px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 1.37rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.plants_img_section {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.plants_img{
+    text-align: center;
+    
+}
+.plants_img h4 {
+  font-size: 1.37rem;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  margin: 10px 0;
+}
+.plants_img span{
+  font-size: 1.37rem;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  display: block;
+}
+.plants_img button{
+    color: white;
+    background-color: rgb(233, 90, 8);
+    padding:12px 88px;
+    margin: 30px 0;
+    border: none;
+    max-width: 270px;
+}
+/* flower plants section style  */
+.flower_plants{
+    display: flex;
+    gap: 110px;
+    margin-top: 120px;
+    position: relative;
+}
+.plant_img{
+  max-width: 50%;
+}
+
+
+ .flower_text h4{
+    font-size: 3.12rem;
+    line-height: 76px;
+    max-width: 400px;
+    
+ }
+ .flower_text ul li{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.37rem;
+    padding: 25px 0;
+ }
+ .img_logo{
+    position: absolute;
+    top: -136px;
+    left: 355px;
+    width: 286px;
+ }
+  
+   
+
+
+/* mobile section style  */
+
+@media screen and (max-width: 576px) {
+  /* nav section style  */
+  .show_item {
+    display: none;
+  }
+
+  .nav_section {
+    margin: 25px 16px;
+  }
+  /* ALWAYS FRESH FLOWERS section  */
+  .fresh_flowers {
+    flex-direction: column-reverse;
+  }
+  .alwayea_section h2 {
+    font-size: 1.5rem;
+    max-width: 191px;
+    line-height: 33px;
+    padding-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+  .alwayea_section p {
+    font-size: 0.87rem;
+    padding: 0 20px;
+  }
+  
+  /* our plants section style  */
+  .plants_img_section{
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+  
+  }
+  .plants_section h3{
+    font-size: 1.5rem;
+  }
+  .plants_section p{
+    font-size: .87rem;
+  }
+  .plants_img{
+    padding: 20px;
+  }
+  .plants_img img{
+     max-width: 171px; 
+  }
+  .plants_img button{
+   padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
+  .plants_img h4 {
+    margin: 10px 0;
+  }
+  /* flower plants section style  */
+  .flower_plants{
+    flex-direction: column;
+  margin-left: 10px;
+  gap: 50px;
+  }
+  .img_logo{
+    display: none;
+  }
+  .first_img{
+    max-width: 400px;
+    
+  }
+ 
+  .flower_text ul li{
+    font-size: .87rem;
+  }
+  .flower_text ul li{
+    margin-left: 25px;
+  }
+  .flower_text h4{
+    font-size: 1.5rem;
+    margin-left: 15px;
+  }
+}
