@@ -1,7 +1,7 @@
-/* front sec */
+/* font   */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* sred  */
+/* font */
 .noto_saris {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -9,11 +9,16 @@
   font-style: normal;
 }
 
-/* body sec*/
+/* body  */
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #f5f7fc;
 }
 
 body {
@@ -21,12 +26,9 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  max-width: 1140px;
-  margin: 0 auto;
-  background-color: #f5f7fc;
 }
-/* navbar sec*/
-.nav_section {
+/* navbar part  */
+.nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,33 +55,33 @@ nav ul li a {
   color: rgb(37, 36, 50);
   font-weight: 700;
 }
-.nav_second_color {
+.nav_secnd_color {
   color: rgb(0, 0, 0);
 }
-/* 2nd sec  */
-.fresh_flowers{
+/* 2nd part  */
+.sec_part{
   display: flex;
   margin-top: 176px;
   align-items: end;
   justify-content: space-between;
 }
-.alwayea_section h2 {
+.seco_part h2 {
   font-size: 4rem;
   color: rgb(233, 90, 8);
 }
 
-.alwayea_section h2 span {
+.seco_part h2 span {
   color: rgb(0, 0, 0);
 }
-.alwayea_section p {
+.seco_part p {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.3rem;
 }
-/*  plant sec  */
-.plant_sec {
+/* 3rd part our plants   */
+.plants_section {
   margin-top: 75px;
 }
-.plant_sec h3 {
+.plants_section h3 {
   text-align: center;
   font-size: 3.12rem;
   margin-bottom: 15px;
@@ -87,21 +89,20 @@ nav ul li a {
 .font_color {
   color: rgb(233, 90, 8);
 }
-.plant_sec p {
+.plants_section p {
   max-width: 888px;
   text-align: center;
   margin: 0 auto;
   font-size: 1.37rem;
   color: rgba(0, 0, 0, 0.5);
 }
-.plant_img {
+.plants_img_section {
   margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.plants_img{
-    text-align: center;
-    
+.plants_img {
+  text-align: center;
 }
 .plants_img h4 {
   font-size: 1.37rem;
@@ -109,70 +110,67 @@ nav ul li a {
   color: rgb(17, 17, 17);
   margin: 10px 0;
 }
-.plants_img span{
+.plants_img span {
   font-size: 1.37rem;
   font-weight: 700;
   color: rgb(17, 17, 17);
   display: block;
 }
-.plants_img button{
-    color: white;
-    background-color: rgb(233, 90, 8);
-    padding:12px 88px;
-    margin: 30px 0;
-    border: none;
-    max-width: 270px;
+.plants_img button {
+  color: white;
+  background-color: rgb(233, 90, 8);
+  padding: 12px 88px;
+  margin: 30px 0;
+  border: none;
+  max-width: 270px;
 }
-/* challange-part-logo  */
-.flower_plants{
-    display: flex;
-    gap: 110px;
-    margin-top: 120px;
-    position: relative;
+/* Challenge part  */
+.ch_part {
+  display: flex;
+  gap: 110px;
+  margin-top: 120px;
+  position: relative;
 }
-.plant_img{
+.plant_img {
   max-width: 50%;
 }
 
-
- .flower_text h4{
-    font-size: 3.12rem;
-    line-height: 76px;
-    max-width: 400px;
-    
- }
- .flower_text ul li{
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 1.37rem;
-    padding: 25px 0;
- }
- .img_logo{
-    position: absolute;
-    top: -136px;
-    left: 355px;
-    width: 286px;
- }
-  
-    /* letes deals section style  */
-.latest_text{
+.flower_text h4 {
+  font-size: 3.12rem;
+  line-height: 76px;
+  max-width: 400px;
+}
+.flower_text ul li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.37rem;
+  padding: 25px 0;
+}
+.img_logo {
+  position: absolute;
+  top: -136px;
+  left: 355px;
+  width: 286px;
+}
+/* deal part */
+.deal_part {
   text-align: center;
   margin-top: 70px;
   margin-bottom: 90px;
 }
-.latest_text h2{
-font-size: 3.13rem;
-margin-bottom: 25px;
+.deal_part h2 {
+  font-size: 3.13rem;
+  margin-bottom: 25px;
 }
-.latest_text p{
-max-width: 888px;
-margin: 0 auto;
-font-size: 1.37rem;
+.deal_part p {
+  max-width: 888px;
+  margin: 0 auto;
+  font-size: 1.37rem;
 }
 .cards {
   display: flex;
   gap: 25px;
 }
-.left_card{
+.left_card {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -180,65 +178,122 @@ font-size: 1.37rem;
 
 .right_card {
   position: relative;
-  
 }
-.right_card img{
+.right_card img {
   border-radius: 8px;
   max-width: 753px;
 }
 .small_card {
   position: relative;
- 
 }
-.small_card img{
+.small_card img {
   border-radius: 8px;
 }
 .text_card {
   position: absolute;
   top: 79px;
   left: 90px;
-  text-align: center
+  text-align: center;
 }
-.text_right{
+.text_right {
   top: 174px;
   left: 194px;
 }
-#text{
+#text {
   font-size: 2.5rem;
 }
-#text_small{
+#text_small {
   font-size: 1.75rem;
-  
 }
 
-.text_card h3{
+.text_card h3 {
   color: white;
   font-size: 1.25rem;
 }
-.text_card a{
+.text_card a {
   color: white;
-  
+}
+/* last join part */
+ .last_part {
+  max-width: 1440px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-size: cover;
+  height: 533px;
+  margin: 0px auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+.form label {
+  font-size: 3.12rem;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.colorful {
+  text-align: center;
+  padding-top: 200px;
+}
+#email {
+  padding: 10px 160px;
+  border: none;
+  margin-top: 10px;
+}
+#submit {
+  padding: 10px 30px;
+  background-color: rgb(233, 90, 8);
+  border: none;
+}
+/* footer  part */
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.footer_part {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer_img {
+  max-width: 359px;
+}
+.foterleft_nav ul li {
+  list-style: none;
+}
+.foterleft_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.foterright_nav ul li {
+  list-style: none;
+}
+.foterright_nav ul li a {
+  text-decoration: none;
+  color: rgb(107, 114, 128);
+  line-height: 52px;
+}
+.social_part img {
+  margin: 0 10px;
 }
 
+/* responsive with movile  */
 
-
-
-/* mobile section style  */
-
-@media screen and (max-width: 576px) {
-  /* nav section style  */
+@media screen and (max-width: 768px) {
+  /* nav spart  */
   .show_item {
     display: none;
   }
 
-  .nav_section {
+  .nav{
     margin: 25px 16px;
   }
-  /* ALWAYS FRESH FLOWERS section  */
-  .fresh_flowers {
+  /* 2nd part  */
+  .sec_part {
     flex-direction: column-reverse;
   }
-  .alwayea_section h2 {
+  .seco_part h2 {
     font-size: 1.5rem;
     max-width: 191px;
     line-height: 33px;
@@ -246,93 +301,118 @@ font-size: 1.37rem;
     margin-top: 35px;
     margin-bottom: 15px;
   }
-  .alwayea_section p {
+  .seco_part img {
+    width: 100%;
+  }
+  .seco_part p {
     font-size: 0.87rem;
     padding: 0 20px;
   }
-  
-  /* our plants section style  */
-  .plants_img_section{
+
+  /* 3rd part */
+  .plants_img_section {
     grid-template-columns: repeat(2, 1fr);
-    
-    
-  
   }
-  .plants_section h3{
+  .plants_section h3 {
     font-size: 1.5rem;
   }
-  .plants_section p{
-    font-size: .87rem;
+  .plants_section p {
+    font-size: 0.87rem;
   }
-  .plants_img{
+  .plants_img {
     padding: 20px;
   }
-  .plants_img img{
-     max-width: 171px; 
+  .plants_img img {
+    max-width: 171px;
   }
-  .plants_img button{
-   padding: 20px 40px;
+  .plants_img button {
+    padding: 20px 40px;
     margin-top: 30px;
     margin-bottom: 5px;
   }
   .plants_img h4 {
     margin: 10px 0;
   }
-  /* flower plants section style  */
-  .flower_plants{
+  /* challenge part */
+  .ch_part {
     flex-direction: column;
-  margin-left: 10px;
-  gap: 50px;
+    margin-left: 10px;
+    gap: 50px;
   }
-  .img_logo{
+  .img_logo {
     display: none;
   }
-  .first_img{
+  .first_img {
     max-width: 400px;
-    
   }
- 
-  .flower_text ul li{
-    font-size: .87rem;
+
+  .flower_text ul li {
+    font-size: 0.87rem;
   }
-  .flower_text ul li{
+  .flower_text ul li {
     margin-left: 25px;
   }
-  .flower_text h4{
+  .flower_text h4 {
     font-size: 1.5rem;
     margin-left: 15px;
   }
-}
+  /* challange part deal part  */
+  .small_card img {
+    padding: 10px;
+  }
+  .right_card img {
+    padding: 10px;
+  }
 
-
- /* letes deals section style  */
-.latest_text{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-.latest_text h2{
-  font-size: 1.5rem;
-}
-.latest_text p {
-  font-size: .87rem;
-}
-  .cards{
+  .deal_part {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .deal_part h2 {
+    font-size: 1.5rem;
+  }
+  .deal_part p {
+    font-size: 0.87rem;
+  }
+  .cards {
     flex-direction: column;
-    
   }
-  .right_card img{
+  .right_card img {
     width: 100%;
   }
-  .left_card img{
+  .left_card img {
     width: 100%;
   }
-  #text{
+  #text {
     font-size: 1.25rem;
   }
-  #text_small{
+  #text_small {
     font-size: 1rem;
   }
-  .text_right{
+  .text_right {
     top: 100px;
     left: 120px;
   }
+  /* last part join part */
+  .last_part {
+    height: 275px;
+    padding-left: 10px;
+  }
+  .form label {
+    font-size: 1.25rem;
+  }
+  .colorful {
+    padding-top: 107px;
+  }
+  #email {
+    padding: 15px 40px;
+  }
+  #submit {
+    padding: 15px 20px;
+  }
+  /* footer part  */
+  .footer_part {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+}
