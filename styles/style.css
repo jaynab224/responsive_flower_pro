@@ -341,7 +341,9 @@ footer {
   }
   .img_logo {
     display: none;
+    
   }
+  
   .first_img {
     max-width: 400px;
   }
